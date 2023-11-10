@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 #!/usr/bin/python
 
+#promo-vpn-5@india.tr0.png
+
 from pathlib import Path
 import os,sys
 
@@ -22,7 +24,7 @@ n = int(input("Enter last number (№): "))
 
 while i<=n:
     print(i)
-    os.system(f'zip {p_name}{i}{s_name}.zip {p_name}{i}.{s_name}*')
+    os.system(f'zip {p_name}{i}{s_name}.zip {p_name}{i}{s_name}*')
     i+=1
 
 print(f'Ziping successfully completed! in directory: {os.getcwd()}')
